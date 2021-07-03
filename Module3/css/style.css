@@ -1,0 +1,79 @@
+body{
+	font-size: 20px;
+	color: black;
+	font-family: 'Oxygen', sans-serif;
+} 
+#header-nav{
+	background-color: gray;
+	border-radius: 0;
+	border: 0;
+}
+.navbar-brand{
+	padding-top: 25px;
+	float: left;
+	clear: both;
+}
+.navbar-brand{
+	font-family: 'Lora', serif;
+	color: black;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+a:hover{
+	text-decoration: none;
+}
+.navbar-brand a.hover, .navbar-brand a.focus{
+	text-decoration: none;
+}
+@media (min-width: 992px) and (min-width: 1199px){
+	.column1,.column2,.column3{
+    	width: 50%;
+    	margin: 10px;
+    }
+}
+@media (min-width: 768px) and (min-width: 991px){
+	.column1,.column2,.column3{
+    	width: 50%;
+    	margin: 10px;
+	}
+}
+@media (min-width: 767px){
+	.column1,.column2,.column3{
+    width: 50%;
+    margin: 10px;
+	}
+	#nav-list{
+		margin-top: 10px;
+	}
+	#nav-list a{
+		color: red;
+		text-align: center;
+	}
+	#nav-list a:hover{
+		background-color: white;
+	}
+	#nav-list a span{
+		font-size: 1.8em;
+	}
+}
+.column1,.column2,.column3 {
+  background-color:gray;
+  border: 2px solid black;
+  float: left;
+  padding: 20px;
+  width: 100%;
+  margin: 50px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  float: right;
+}
